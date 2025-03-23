@@ -18,12 +18,3 @@ class Product
         Console.WriteLine($"Товар: {Name}, Количество: {Quantity}, Стоимость: {Price}");
     }
 }
-
-class Program
-{
-    static void Main()
-    {
-        Product product = new Product("Молоко", 10, 50.5f);
-        product.DisplayInfo();
-    }
-}
